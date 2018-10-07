@@ -1,1 +1,26 @@
+''' 
+INTRO
+This is a cartesian plane
+  -track x & y coordinate values
+
+SETUP    
+First we must layout the numbers in the cartesian plane
+  -spiral pattern
+  -from 1 up to our puzzle input number
+This will give us the cartesian coordinates of our puzzle input number
+Then we can procede to the solution below
+
+FIND SOLUTION
+To Find The Number of steps back to the center (0,0)
+  -count the number of steps to return x coordinate to 0, plus number steps to return y value to 0
+    *absolute value of x + absolute value of y = answer
+    
+ALGORITHM
+What is the relation between the spiral pattern and cartesian coordinates?
+  -assign cartesian coordinates to each number
+  -create mathematical formula
+    *only need to run formula once on target number
+    *no need to iterate over all numbers leading up to target
+'''
+
 

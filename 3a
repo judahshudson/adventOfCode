@@ -24,3 +24,117 @@ What is the relation between the spiral pattern and cartesian coordinates?
 '''
 
 
+
+targetNum = 277678
+currentNum = 1
+cycleNum = 1
+x = 0
+y = 0
+
+print("targetNumber: ",targetNum)    #*** Step Print***
+
+#   assign numbers to spiral cartesian coordinates, up to target number
+while currentNum < targetNum:
+    for _ in range(cycleNum):
+        x += 1
+        currentNum += 1
+        if currentNum == targetNum: #have we reached targetNum yet?
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    for _ in range(cycleNum):
+        y += 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    cycleNum += 1
+
+    for _ in range(cycleNum):
+        x -= 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    for _ in range(cycleNum):
+        y -= 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    cycleNum += 1
+
+
+
+
+targetNum = 277678
+currentNum = 1
+cycleNum = 1
+x = 0
+y = 0
+
+print("targetNumber: ",targetNum)    #*** Step Print***
+
+#   assign numbers to spiral cartesian coordinates, up to target number
+while currentNum < targetNum:
+    for _ in range(cycleNum):
+        x += 1
+        currentNum += 1
+        if currentNum == targetNum: #have we reached targetNum yet?
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    for _ in range(cycleNum):
+        y += 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    cycleNum += 1
+
+    for _ in range(cycleNum):
+        x -= 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    for _ in range(cycleNum):
+        y -= 1
+        currentNum += 1
+        if currentNum == targetNum:
+            #print("currentNum: ", currentNum)           #*** Step Print***
+            #print("targetNum: ", targetNum)             #*** Step Print***
+            print("steps from targetNum to origin: ",   #*** Step Print***
+            abs(x) + abs(y))    #find steps from target number back to origin
+            exit 
+
+    cycleNum += 1
+
+
+
